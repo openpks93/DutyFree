@@ -34,3 +34,9 @@ for idx in range(0, LENGTH):
         'price': price[idx].text,
         'discount': discount[idx].text
     }
+# json 저장
+with open('dootadutyfree_tagheuer.json', 'w', encoding='utf-8') as f:
+    json.dump(products, f, ensure_ascii=False, indent="\t")
+# 브라우저 종료, 웹 드라이버 종료
+print("This job is finished and close the web browser")
+chrome_driver.quit()
