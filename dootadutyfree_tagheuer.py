@@ -40,3 +40,5 @@ with open('dootadutyfree_tagheuer.json', 'w', encoding='utf-8') as f:
 # 브라우저 종료, 웹 드라이버 종료
 print("This job is finished and close the web browser")
 chrome_driver.quit()
+
+##우오아ㅗ아ㅗ아ㅗㅇ
